@@ -1,0 +1,454 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    
+    background:rgb(230, 222, 222);
+}
+
+.container-default{
+    width:100%;
+    margin:0px auto;
+}
+
+.navbar-expand{
+    position: fixed;
+    width:100%;
+    height: 60px;
+    top:0;
+    margin:auto;
+    background:rgba(0,0,0,.8);
+    z-index:11111111;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom:1px solid #0cf6f6;
+}
+
+
+.ml-auto{
+    float: left;
+    line-height: 20px;
+}
+
+.nav-brand img{
+    padding: 5px;
+    width: 50px;
+}
+
+.mr-auto a{
+    text-align:center;
+    padding:10px 0px;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+
+a:hover{
+    color: #0cf6f6;
+    text-decoration:none;
+}
+
+a li:hover{
+    color: #0cf6f6;
+    text-decoration:none;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    color:white;
+    list-style-type: none;
+}
+
+ul li{
+    font-size:20px;
+    font-family: Josefin Sans;
+    line-height: 60px;
+    color:white;
+    padding:5px 10px;
+    display: inline;
+    float: left;
+    position: relative;
+    margin: 0;
+}
+
+
+ul li ul{
+    top: 58px;
+    display: none;
+    color:#0cf6f6;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.788);
+    margin: 0;
+    padding:0px;
+}
+
+ul li:hover ul{
+    color:#0cf6f6;
+    display:block;
+}
+
+
+ul li ul li:hover{
+    background:white;
+    color:#0cf6f6;
+    display:block;
+}
+
+ul li ul li{
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+    min-width: 230px;
+    text-align: left;
+    padding:5px 10px;
+}
+
+ul li .list1 .list-item ul{
+    display: none;
+    position: absolute;
+    color:#0cf6f6;
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0px 0px 0px 220px;
+    padding: 0px 0px;
+    top:0;
+}
+
+
+ul li .list1 .list-item:hover a{
+    color:#0cf6f6;
+    background: white;
+}
+
+ul li .list1 .list-item:hover ul{
+    display:block;
+    color:#0cf6f6;
+}
+
+
+
+
+.btn1{
+    font-family: Josefin Sans;
+    color:white;
+    border-color: rgb(12, 246, 246) !important;
+    background:rgb(61, 18, 108) !important;    
+    border-radius: 24px;
+    border:2px solid;
+    padding: 0px 33px;
+    line-height: 1.7;
+    margin: 25px 30px 26px 19px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_1{
+
+}
+
+.background_1{
+}
+
+.container_1{
+    background: white;
+    padding:0px 50px 50px 50px;
+    width:70%;
+    margin:50px auto;
+}
+
+.heading{
+    padding-top:100px;
+    font-size: 1.5rem;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.heading1{
+    color: inherit;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+p{
+    font-family: Lato;
+    color: #000;
+    line-height: 1.6;
+    letter-spacing: normal;
+    font-size: 1rem;
+}
+
+p a, p a:hover{
+    color:rgb(61, 158, 223);
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_81{
+}
+
+.background_81{
+    background:#30373e;
+}
+
+.container_81{
+    padding:25px 60px;
+}
+
+.copy{
+    width: max-content;
+    display: inline-block;
+    padding-left:25px; 
+    line-height: 40px;
+    color:white;
+}
+
+.clgh{
+    float: right;
+    padding: 10px;
+    color:white;
+    display: inline-block;
+    line-height: 40px;
+    font-family: Josefin Sans;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btntouch{        
+    transform: rotate(270deg);
+    position: fixed;
+    top: 53vh;
+    left: -55px;
+    z-index: 111;
+    background: #222a42;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    padding: 3px 19px 0px;
+    display: ;
+    border-radius: 0px 0px 24px 8px;
+}
+
+.btntouch:hover, .top:hover{
+    background:#0cf6f6;
+
+}
+
+
+
+.top{
+    position: fixed;
+    bottom:15px;
+    right:25px;
+    z-index: 111;
+    background: #333;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 7px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section_contact{ 
+    display: none;
+}
+
+
+
+.contact_us_form{
+    width: 100%;
+    margin:auto;
+    height: 100%; 
+    color:white;
+    position: fixed;
+    background: rgba(0,0,0,.9);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px 100px;
+    z-index: 111111;
+}
+
+.hero1 h2{
+    font-size: 30px;
+}
+
+.closeth{
+    font-size: 16px;
+    margin: -40px 0px 0px 0px;
+    float: right;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px 5px 4px 0px;
+}
+
+.closeth:hover{
+    background: white;
+    color:#0cf6f6; 
+}
+
+
+.closeth:hover{
+    background: #0cf6f6;
+    color:#ffffff; 
+}
+
+.closeth:hover span{
+    background: white;
+    color:#0cf6f6; 
+}
+
+.closeth span{
+    padding: 6px 12px;
+    background:#0cf6f6;
+    color: white;
+    border-radius: 38px;
+}
+
+
+.btn5{
+    cursor: pointer;
+    background: #3d126c;
+    color:white;
+    border: 2px solid #0cf6f6;
+    padding:5px 70px 10px 70px;
+    border-radius: 10px;
+    margin:21px 0px 21px 0px;
+}
+
+hr{
+    color: #0cf6f6;
+    border: .5px solid;
+    margin-bottom: 20px;
+}
+
+.inpt{
+    background:rgba(0, 0, 0, 0.698);
+    color:white;
+    border:1px solid #0cf6f6;
+    line-height: inherit;
+    padding: 6px 15px;
+    margin:10px 20px 5px 0px;
+    width:48%;
+}
+
+.interest{
+    padding:29px 0px 5px 0px;
+}
+
+.check{
+    width:auto;
+    margin:5px 15px 20px 0px;
+    text-align: justify;
+}
+.text{
+    color:#0cf6f6;
+}
+
+.txtarea{
+    width:98%;
+    overflow: auto;
+    height: 80px;
+    padding: 6px 15px;
+    margin-bottom: 17px;
+    background: transparent;
+    border: 1px solid #0cf6f6;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.651);
+}
+
+.btn6{
+    margin:25px 0px;
+    color:white;
+    border-radius: 10px;
+    padding:15px 25px;
+    background: #3d126c;
+    border:2px solid #0cf6f6;
+}
+
+
+#s1{
+    display:none;
+}
+
+
+pre{
+    font-family: inherit;
+    font-size: inherit;
+}
+
+table{
+    padding:10px;
+}
+
+tr{
+    color: inherit;
+    vertical-align: top;
+    line-height: 1.5;
+    border:2px solid #eceeef;
+}
+
+td{
+    line-height: 1.5;
+    padding:10px 10px;
+    border:2px solid #eceeef;
+}
