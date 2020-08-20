@@ -1,0 +1,226 @@
+.navbar-nav{
+    position: fixed;
+    z-index: 1;
+    height: 55px;
+}
+.custom-navbar {
+    height: 55px;
+}
+.ml-auto{
+    width:100%;
+    padding:7px 10;
+    background-color: black;
+    clear: both;
+}
+a{
+    width:25%;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+}
+a:hover{
+    color:black;
+    display: block;
+    width:25%;
+    text-decoration:none;
+    text-align: center;
+    background-color: rgb(151, 148, 148);
+}
+.background_1{
+    position: relative;
+    background-image:url("ny.jpg");
+    background-repeat:none;
+    background-size:cover;
+    min-height:70%;
+}
+.content_1{
+    padding: 100px 0 0 0;
+    margin: auto;
+}
+.content_1_2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 40px;
+    bottom:40px;
+}
+.content_1_3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 40px;
+    bottom:40px;
+}
+h1{
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 100;
+    font-size:100px;
+    color:white;
+    padding:70 0 20 0
+}
+.hrer{
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 100;
+    font-size:100px;
+    color:white;
+    padding: 0 0 70 0;
+}
+.background_2{
+    background-color:rgb(240, 235, 235);
+}
+.row_2{
+    padding: 0 0 30 0;
+}
+.content_2_1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 82 auto;
+}
+.content_2_3{
+    width:60%;
+    margin:auto;
+    padding: 30 0 0 0;
+}
+.content_2_4{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 82 auto;
+}
+.content_2_3 img{
+    width:100%;
+    margin:auto;
+}
+p{
+    width:60%;
+    margin:auto;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;
+    padding: 10 0 25 0;
+}
+.prgh{
+    border-left:3px solid grey;
+    background-color:whitesmoke;
+    width:60%;
+    font-size: 18px;
+    padding: 20 10 20 10; 
+}
+.open{    
+    width:100%;
+    font-size: 17px;
+    font-family: "Inconsolata", sans-serif;
+    padding: 20 0 10 0;
+    text-align: justify;
+}
+.add{
+    width:100%;
+    font-size: 17px;
+    font-family: "Inconsolata", sans-serif;
+    padding: 10 0 25 0;
+    text-align: justify;
+}
+.background_3{
+    background-color:rgb(240, 235, 235);
+}
+.content_3_1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 30 auto;
+}
+.content_3_2{
+    color:white;
+    background-color: #333;
+}
+.content_3_3{
+    background-color:;
+    color: black;
+}
+.row_3{
+    width:60%;
+    margin:auto;
+    text-align:center;
+    padding: 5 5;
+    border: 0.1px solid #d6d0d0;
+    box-shadow: 2px 3px #d6d0d0;
+}
+.row_4{
+    width:60%;
+    margin:auto;
+    text-align:justify;
+    padding: 5 5;
+    border: 0.1px solid #d6d0d0;
+    box-shadow: 2px 3px #d6d0d0;
+}
+.para{
+    font-family: "Segoe UI",Arial,sans-serif;
+    width:100%;
+    text-align: justify;
+    padding:20 0 10 10;
+    font-size: 18px;
+}
+.graph{
+    color: rgb(124, 121, 121);
+    font-family: "Inconsolata", sans-serif;
+    width:100%;
+    text-align: justify;
+    padding: 10 0 10 10;
+    font-size:18px;
+}
+.row_4_1{
+    margin: auto;
+    width:60%;
+}
+.content_4_7 img{
+    width:100%;
+    padding:30px 0 10 0;
+}
+.row_5{
+    width:60%;
+    margin: auto;
+    padding: 20px;
+}
+.content_4_3 img{
+    width:100%;
+}
+.bold{
+    background-color: black;
+    color: white;
+}
+.parad{
+    font-family: "Segoe UI",Arial,sans-serif;
+    width:100%;
+    text-align: justify;
+    padding:20 0 10 0;
+    font-size: 18px;
+}
+.input{
+    margin:10 auto;
+    padding: 20 0;
+    width:100%;
+}
+.btn{
+    background-color: black;
+    border-radius: 0;
+    border-color:black;
+}
+.btn:hover{
+    background-color: rgb(146, 143, 143);
+    border-radius: 0;
+    color:black;
+    border-color:rgb(146, 143, 143);
+}
+.content_4_4{
+    padding: 40 0 25 0;
+    margin:auto;
+}
+.linkt{
+    color:black;
+}
