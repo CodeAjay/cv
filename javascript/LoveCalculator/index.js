@@ -22,16 +22,16 @@ function love(){
         document.querySelector("form").classList.add("smooth");
         if(loveCal>90){
         document.querySelector("h1").innerHTML= "Your Love score is: "+loveCal+"%";
-        document.querySelector("h2").innerHTML= first +" " +second+ " are a great couples";
+        document.querySelector("h2").innerHTML= first +" and " +second+ " are a great couples";
         }
         else if
         (loveCal>60 && loveCal<90){
         document.querySelector("h1").innerHTML= "Your Love score is: "+loveCal+"%";
-        document.querySelector("h2").innerHTML= first +" " +second+ " are a vey good couples";
+        document.querySelector("h2").innerHTML= first +" and " +second+ " are a vey good couples";
         } 
         else{
         document.querySelector("h1").innerHTML= "Your Love score is: "+loveCal+"%";
-        document.querySelector("h2").innerHTML= first +" " +second+ " are a good couples";
+        document.querySelector("h2").innerHTML= first +" and " +second+ " are a good couples";
         } 
     }
    
