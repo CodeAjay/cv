@@ -7,11 +7,42 @@
     margin:auto;
 }
 
+.date{
+    text-align:center;
+    position: relative;
+    top:21%;
+    font-size:2rem;
+    font-weight: bold;
+    width: 34%;
+    background:rgb(241 241 241);
+    margin:auto;
+    color:#e40e35;
+    border-radius: 1rem;
+    padding:.3rem;
+    border:1px solid black;
+}
+
+.time{
+    text-align:center;
+    position: relative;
+    top:45%;
+    font-size:2rem;
+    font-weight: bold;
+    width: 34%;
+    background: #a4a4a4;
+    margin:auto;
+    color:white;
+    border-radius: 1rem;
+    padding:.3rem;
+    border:1px solid black;
+}
+
 #hour, #min, #sec{
     position: absolute;
     background:black;
     border-radius: 10px;
     transform-origin: bottom;
+    z-index: 111;
 }
 
 #hour{
