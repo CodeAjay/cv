@@ -16,7 +16,7 @@ setInterval (() => {
   document.querySelector(".date").innerHTML=days[d.getDay()] + "<br>" + d.getDate() +  "-" + months[d.getMonth()]+"-" +d.getFullYear();
   if(d.getHours()>12){
 
-  document.querySelector(".time").innerHTML=24-d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+" PM";
+  document.querySelector(".time").innerHTML=d.getHours()-12+":"+d.getMinutes()+":"+d.getSeconds()+" PM";
   }
   else{
     document.querySelector(".time").innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+"AM";
