@@ -16,9 +16,9 @@ setInterval (() => {
   document.querySelector(".date").innerHTML=days[d.getDay()] + "<br>" + d.getDate() +  "-" + months[d.getMonth()]+"-" +d.getFullYear();
   if(h>12){
     h=24-h;
-  document.querySelector(".time").innerHTML=h+":"+d.getMinutes()+":"+d.getSeconds()+" PM";
+  document.querySelector(".time").innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+" PM";
   }
   else{
-    document.querySelector(".time").innerHTML=h+":"+d.getMinutes()+":"+d.getSeconds()+"AM";
+    document.querySelector(".time").innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+"AM";
   }
 }, 1000);
